@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet"
+			type="text/css"
+			href="./css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Josefin+Sans|Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="my first web site">
+	<meta name="keywords" content="web design,web site">
+	<meta name="auther" content="Hashan Jayalath">
+  <link rel="shortcut icon" href="./imgs/ucd-logo.png" type="image/png" />
+  <title>
+		CS16.2 | SERVICES
+	</title>
+
+</head>
+
+
+<body>
+	<!--Top header section of the site with linked css-->
+	<header>
+		 <div class="container">
+			<div id="branding">
+				<h1>
+					<span class="highlight">CS</span><sub>16.2</sub>
+				</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href='home.html'>home</a></li>
+					<li><a href='about.html'>about</a></li>
+					<li class="current"><a href='services.html'>services</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<section id="newsletter">
+		<div class="container">
+
+			<h1>Subscribe to our newsletter</h1>
+			<form>
+				<input type="email" placeholder="Enter Email...">
+				<button type="submit" onclick="alert('Thank You for subscribing ! ')" class="button_1">Subscribe</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+      <div class="box" style="width:65%;background-color:#4ec231;">
+        <h1 class="topic_main">Services</h1>
+
+        <div class="box" style="float:none;width:100%;margin-top:10px;">
+          <h3>Web Designing</h3>
+          <p>Sed mattis diam mi, id convallis erat ornare sed. Vivamus ac felis eget orci finibus facilisis ac in odio. Pellentesque vitae sodales lectus. Pellentesque sit amet ante quis neque gravida porttitor.
+          </p>
+          <p>Pricing : USD $ 200 - 500 </p>
+        </div>
+
+        <div class="box" style="float:none;width:100%;margin-top:10px;">
+          <h3>Windows Application Development</h3>
+          <p>nec lacinia tellus finibus et. Donec nibh risus, placerat ac lacinia vitae, pharetra eget metus. Sed egestas non ligula vel mattis. Vivamus elementum neque in dui vestibulum sagittis in a nisi. Mauris leo libero, congue ut ante id, iaculis venenatis odio. Aenean dignissim metus quis dolor pulvinar dignissim.
+          </p>
+          <p>Pricing : USD $ 300 - 1,000 </p>
+        </div>
+
+        <div class="box" style="float:none;width:100%;margin-top:10px;">
+          <h3>Mobile Applications Development</h3>
+          <p>Donec maximus purus non sem posuere condimentum. Duis interdum velit elit, quis dapibus mi tristique nec. Etiam nec mauris id ligula consequat ultricies. Integer ante nibh, lobortis id dolor et, tempor placerat quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p>Pricing : USD $ 200 - 400 </p>
+        </div>
+			</div>
+      <div class="box dark" style="width:28%;float:right;">
+        <h3 style="color:#ffffff;font-size:35px;">Get a Quote</h3>
+        <form class="quote">
+          <h4>Name</h4>
+          <input type="text" name="name" placeholder="Name">
+          <h4>Email</h4>
+          <input type="email" name="email" placeholder="email">
+          <h4>Message</h4>
+          <textarea name="msg" placeholder="message"></textarea><br><br>
+          <button class="button_1" type="submit" onclick="alert('Your Quote has been succesfully submitted for review,Thank You!')">SEND</button>
+        </form>
+
+
+		</div>
+	</section>
+
+	<footer>
+		<p>CS16.2 , Copyright &copy; 2017</p>
+  </footer>
+
+
+
+</body>
+
+</html>

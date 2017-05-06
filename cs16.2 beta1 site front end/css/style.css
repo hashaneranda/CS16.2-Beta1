@@ -1,0 +1,241 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+@font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+    }
+/*Globle */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  background-color: #4ec231;
+  color:#000000;
+}
+.button_1 onclick{
+  background-color: #4ec231;
+}
+
+.topic_main{
+  font-size: 50px;
+  font-weight: 2000;
+}
+
+
+/* header*/
+header{
+  background-color:#3374ff;
+  color: white;
+  padding: 15px;
+  min-height: 70px;
+  border-bottom: #4ec231 3px solid;
+
+}
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+
+header li{
+  display: inline;
+  float:left;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 0;
+
+}
+
+
+
+header nav{
+  float: right;
+  margin-top: 15px;
+}
+
+header .highlight{
+  color:#4ec231;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: monospace;
+  padding: 0;
+  margin:0;
+}
+
+header .current a{
+  color:#4ec231;
+  font-weight: bold;
+}
+header a:hover{
+  color:#b2e4a4;
+  font-weight: bold;
+}
+
+/* showcase */
+#showcase {
+  min-height: 400px;
+  background:url("../imgs/showcase.jpg") ;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.title h1{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 70px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: monospace;
+  font-weight: bold;
+}
+#showcase p{
+  font-size: 25px;
+  margin: 0 60px 0 60px;
+  font-family: Segoe UI,Arial,sans-serif;
+
+}
+
+/*newsletter */
+#newsletter {
+  padding: 10px;
+  color :#ffffff;
+  background-color: #3374ff;
+}
+
+#newsletter h1{
+  font-size: 25px;
+  font-family: cursive;
+  float:left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 5px;
+  height:25px;
+  width:250px;
+}
+
+/*boxes*/
+#boxes{
+  margin-top: 30px;
+
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding: 15px;
+  border: none !important;
+    border-radius: 3px !important;
+    background-color: #ffffff ;
+    box-shadow: 0px 0px 15px #989898;
+}
+
+#boxes .box h3{
+  color: black;
+     font-weight: 300;
+     font-size: 25px;
+
+     font-family: 'Fjalla One', sans-serif;
+}
+
+#boxes .box p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #313131;
+  font-size: 20px;
+}
+
+#boxes .box img{
+  width:110px;
+}
+#boxes .box.dark{
+  background-color: #3374ff;
+  color: #ffffff;
+}
+
+#boxes .box.dark input,textarea{
+  width:60%;
+  padding: 5px;
+}
+
+footer{
+  color:#000000;
+  background-color: #4ec231;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  width:100%;
+}
+
+/* Media Quaries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100% !important;;
+
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  #newsletter button{
+    display:block;
+    width:100%;
+    margin-top: 5px;
+  }
+
+  #newsletter form input[type="email"]{
+    width: 100%;
+  }
+
+  #boxes .box {
+    float: none !important;
+  }
+
+
+}
