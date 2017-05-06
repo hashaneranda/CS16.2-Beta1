@@ -39,6 +39,18 @@ ul{
   font-size: 50px;
   font-weight: 2000;
 }
+.topic{
+  text-align: center;
+  width=100%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 70px;
+  margin-top: 0px;
+  padding: 0;
+
+  color: #E7E7DE;
+}
+
+
 
 
 /* header*/
@@ -51,7 +63,8 @@ header{
 
 }
 
-header a{
+header a,
+footer a{
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -59,7 +72,8 @@ header a{
 }
 
 
-header li{
+header li,
+footer li{
   display: inline;
   float:left;
   padding: 0 20px 0 20px;
@@ -94,7 +108,8 @@ header .current a{
   color:#4ec231;
   font-weight: bold;
 }
-header a:hover{
+header a:hover,
+footer a:hover{
   color:#b2e4a4;
   font-weight: bold;
 }
@@ -191,6 +206,90 @@ header a:hover{
   width:60%;
   padding: 5px;
 }
+
+/*login page*/
+#login-img{
+  margin-top: -60px;
+  margin-bottom: 30px;
+  height: 160px;
+  width:160px;
+
+}
+.container.box{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin:0 auto;
+    background-color: rgba(51, 116, 255,1.0);
+    border-radius: 4px;
+    box-shadow: 0 0 6px #2c3e50;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    overflow: visible;
+
+}
+
+.container.box input{
+  width:70%;
+  height:30px;
+  font-size: 20px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 2px 2px 4px #00587A;
+
+}
+
+.container.box h3{
+  margin: 0 0 15px 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: #112233;
+}
+
+.container.box button{
+  width:30%;
+  border: none;
+  background-color: #00587A;
+  color: #CDCBA6;
+  padding: 10px;
+  margin: 10px 0 40px 0;
+  font-size: 20px;
+  border-radius: 4px;
+
+}
+
+.container.box a{
+  text-decoration: none;
+  color: #E7E7DE;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+#backg header{
+  height: 120px;
+}
+
+
+
+#backg #topicLogin{
+  background-color: #4ec231;
+  color:#000000;
+  border:none;
+  width:500px;
+  height: 120px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #3374ff;
+}
+
 
 footer{
   color:#000000;
